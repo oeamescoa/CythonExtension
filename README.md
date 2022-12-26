@@ -1,4 +1,4 @@
-Creator = Oscar Amezcua
+Creator: Oscar Amezcua
 Date Created: 12/26/2922
 
 Example project to create a Python Extension package in C using the Cython.Build library.
