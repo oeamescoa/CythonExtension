@@ -1,6 +1,6 @@
 #!/bin/bash
 
-printf "\n\n Installing required dependencies...\n\n"
+printf "\n\nInstalling required dependencies...\n\n"
 
 # Install required dependencies
 pip3 install -r requirements.txt --quiet
@@ -9,7 +9,7 @@ printf "Creating Build Extensions...\n\n"
 # Build the setup.py file with the .pyx extension
 python3 setup.py build_ext --inplace --quiet
 
-printf "\n\n Installing Build Extensions...\n\n"
+printf "\n\nInstalling Build Extensions...\n\n"
 # Install the extension
 python3 setup.py install --quiet
 
